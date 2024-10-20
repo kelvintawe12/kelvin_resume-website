@@ -83,19 +83,19 @@
             <h2>My Skills</h2>
             <div class="skills-list">
                 <!-- List of technical skills -->
-                <div class="skill" id="experience-item1">
+                <div class="skill" id="experience-item4">
                     <h3>Web Development</h3>
                     <p><span>HTML</span>, CSS, JavaScript</p>
                 </div>
-                <div class="skill" id="experience-item2">
+                <div class="skill" id="experience-item5">
                     <h3>Programming Languages</h3>
                     <p><span>Python</span>, JavaScript, TypeScript</p>
                 </div>
-                <div class="skill" id="experience-item3">
+                <div class="skill" id="experience-item6">
                     <h3>Database Management</h3>
                     <p>MySQL, <span>MongoDB</span></p>
                 </div>
-                <div class="skill" id="experience-item4">
+                <div class="skill" id="experience-item7">
                     <h3>Version Control</h3>
                     <p>Git, <span>GitHub</span></p>
                 </div>
@@ -168,7 +168,7 @@
             </div>
             <div class="project-item">
                 <div class="project-image">
-                    <img src="../background images/House in Cyprus.jpeg"" alt="suspension house Project Screenshot" />
+                    <img src="../background images/House in Cyprus.jpeg" alt="suspension house Project Screenshot" />
                 </div>
                 <div class="project-description">
                     <h3><a href="https://docs.google.com/document/d/1fzC59Kvhz_Fl6p33zcOcjzPxfcbOjOAOQ1AXMDw2qkc/edit?usp=sharing" target="_blank" class="project-link">kelvinDESIGN-ARCHITECT</a></h3>
@@ -195,8 +195,7 @@
                 <p><strong>Phone:</strong> +250793898872</p>
                 <p><strong>LinkedIn:</strong> <a href="#">LinkedIn Profile</a></p>
             </div>
-            <!-- Contact form -->
-            <form action="#" method="post" class="contact-form">
+            <form action="#" method="post" class="contact-form" id="contactForm">
                 <div class="form-group">
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" placeholder="fullname" required>
@@ -207,10 +206,15 @@
                 </div>
                 <div class="form-group">
                     <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="5" placeholder="hey kelvin i will like to contact you on some issues..."></textarea>
+                    <textarea id="message" name="message" rows="5" placeholder="Hey Kelvin, I would like to contact you on some issues..."></textarea>
                 </div>
                 <button type="submit">Send Message</button>
             </form>
+            
+            <!-- Success/Failure message display -->
+            <p id="successMessage" style="color: green; display: none;">Your message was sent successfully!</p>
+            <p id="errorMessage" style="color: red; display: none;">An error occurred while sending the message. Please try again later.</p>
+            
         </div>
     </section>
 
@@ -233,28 +237,17 @@
             <a href="#"><i class='bx bxs-envelope'></i></a>
             <a href="#"><i class='bx bxs-message'></i></a>
             <div class="aspirations">
-                <!-- display  the aspirations here  iff possible incude some nice  animations -->
-                 <!-- example aspirations -->
-                
-                <!-- <p>Aspirations: I aspire to become a world-class software engineer, a successful entrepreneur, and a tech enthusiast.</p>
-                <span>
-                    <i class='bx bx-x'></i>
-                </span>
-                <span>
-                    <i class='bx bx-three-dots'></i>
-                </span> -->
-            <!-- end of alternative text  -->
             </ul>
         </div>
     </footer>
 
     <!-- JavaScript file link -->
     <script src="./script.js"></script>
-    <button>
+    <butt>
         <!-- this is the  button to move to the top including some box icons templates-->
 
     <a href="#top" class="back-to-top">BACK TO TOP<i class='bx bxs-up-arrow'></i></a>
-    </button>
+    </butt>
 </body>
 
 </html>
