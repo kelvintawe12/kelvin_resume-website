@@ -74,7 +74,7 @@ span{
 }
 .logo a {
     font-size: 2rem;
-    color: #f8cd8b;
+    color: #dccdb7;
     text-decoration: none;
     font-weight: bold;
     letter-spacing: 1px;
@@ -108,12 +108,12 @@ span{
 .hamburger span {
     width: 30px;
     height: 3px;
-    background-color: #F1C584;
+    background-color: #010101;
     transition: 0.3s ease;
 }
 
 .nav-links li a:hover {
-    background-color: #000;
+    background-color: #7a3333;
     color: #fff;
     /* Adds hover effect */
     border-radius: 5px;
@@ -138,7 +138,7 @@ span{
 .hamburger span {
     width: 30px;
     height: 3px;
-    background-color: #F1C584;
+    background-color: #567fa3;
 }
 
 /* Media Query for Mobile Screens */
@@ -261,7 +261,7 @@ span{
 
 .home-text h1 {
     font-size: 2.5rem;
-    color:#F1C584;
+    color:#526ae4;
 }
 .project-image:hover{
     transform: scale(1.1);
